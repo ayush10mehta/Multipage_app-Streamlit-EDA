@@ -23,7 +23,7 @@ from plotly.offline import plot
 
 #--------------------------------------------------------------------------------
 
-loan = pd.read_csv("/Users/ayushmehta/Downloads/Upgrad/Case Study EDA/loan.csv")
+loan = pd.read_csv("loan.csv")
 st.subheader("A look at the data")
 st.dataframe(loan.head())
 
