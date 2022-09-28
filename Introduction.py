@@ -46,7 +46,7 @@ from PIL import Image
 st.header("Process flow diagram")
 #background = st.image('/Users/ayushmehta/Downloads/Upgrad/Case Study EDA/Untitled Diagram.drawio.png')
 
-background = Image.open("/Users/ayushmehta/Downloads/Upgrad/Case Study EDA/Untitled Diagram.drawio.png")
+background = Image.open("Untitled Diagram.drawio.png")
 col1, col2, col3 = st.columns([1, 0.2, 0.2])
 col1.image(background, use_column_width=True)
 
