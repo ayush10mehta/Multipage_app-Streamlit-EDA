@@ -17,7 +17,7 @@ page_title = "Biivariate Data Analysis",
 layout="wide",)
 
 
-loan = pd.read_csv("/Users/ayushmehta/Downloads/Upgrad/Case Study EDA/loan.csv")
+loan = pd.read_csv("loan.csv")
 loan.drop(['collections_12_mths_ex_med', 'mths_since_last_major_derog', 'tax_liens', 'tot_hi_cred_lim', 
            'total_bal_ex_mort', 'total_bc_limit', 'total_il_high_credit_limit', 'annual_inc_joint', 'dti_joint', 
            'verification_status_joint', 'acc_now_delinq', 'tot_coll_amt', 'tot_cur_bal', 'open_acc_6m', 
