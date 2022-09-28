@@ -54,7 +54,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import missingno as msno
+#import missingno as msno
 import plotly.express as px
 import plotly.graph_objs as go
 from plotly.offline import plot
@@ -63,7 +63,7 @@ from plotly.offline import plot
 
 #--------------------------------------------------------------------------------
 #from st_aggrid import AgGrid
-loan = pd.read_csv("/Users/ayushmehta/Downloads/Upgrad/Case Study EDA/loan.csv")
+#loan = pd.read_csv("/Users/ayushmehta/Downloads/Upgrad/Case Study EDA/loan.csv")
 #AgGrid(loan)
 
 
